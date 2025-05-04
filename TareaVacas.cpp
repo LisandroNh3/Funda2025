@@ -76,10 +76,12 @@ int main()
 
        
     }
+    //Inicio de ruta de Parque
     if (ruta1 == 2){
         cout << "Ahora que estamos en el parque que hacemos 1- Ir a los columpios 2- Jugar con personas desconocidas al futbol 3- Acostarse al pasto y observar el cielo";
         cin >> alt2;
     }
+    // Que pasara dependendiendo de la eleccion estando en el parque
     switch (alt2)
     {
 
@@ -96,7 +98,7 @@ int main()
         break;
     }
 
-    // Eleccion de que se cenara y final de ruta gym
+    // Eleccion de que actividad habra y final de ruta en el parque
     cout << "Luego de regresar de un gran dia, para terminar el dia decides 3 opciones 1- Jugar un videojuego 2- Ver una pelicula 3-Probar una nueva receta para la cena" << endl;
     cin >> alt2f;
 
